@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'roboto',serif;
+    line-height: 1.4;
+    color: #333;
+    font-weight: 400;
+    background-color: #f0f0f0;
+}
+
+#header-wrapper {
+    box-shadow: 0 1px 15px 1px rgb(0,0,0,0.4), 0 1px 6px rgb(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    background: rgb(255, 255, 255);
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 56px;
+}
+
+.nav-item:hover {
+    background-color: #0091ce;
+}
+
+.inline {
+    max-width: 400px;
+    margin: auto;
+}
+
+.input-icon i {
+
+    position: absolute;
+}
+
+.input-icon {
+    width: 100%;
+}
+
+.icon {
+    padding: 1em;
+    min-width: 40px;
+}
+
+.input-filed {
+    width: 100%;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
+.bongoai {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(171, 176, 173, 0.5);
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+.text-center {
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+    .dangky {
+        padding-left: 40%;
+    }
+    .dangnhap {
+        padding-left: 38%;
+    }
+}
+
+.input-icon i {
+    position: absolute;
+}
+
+.input-filed {
+    width: 100%;
+    padding: 5px 40px;
+    border: 1px solid black;
+}
+
+.icon {
+    padding: 0.65em;
+    margin-right: 3px;
+    min-width: 40px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.new-dot {
+    margin: 0 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #cecece;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+ul .item-candicate {
+    border: 1px solid #9b4f4f;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.g-width-70x {
+    width: 70% !important;
+}
+
+.g-width-18x {
+    width: 18% !important;
+}
+
+.footer {
+    box-sizing: content-box;
+}
+.footer-content {
+    background: url(Image/bg-counter.jpg);
+    height: auto;
+    padding: 60px;
+    margin-top: 20px;
+}
+

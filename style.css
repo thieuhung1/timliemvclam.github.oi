@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'roboto',serif;
+    line-height: 1.4;
+    color: #333;
+    font-weight: 400;
+    background-color: #f0f0f0;
+}
+
+#header-wrapper {
+    box-shadow: 0 1px 15px 1px rgb(0,0,0,0.4), 0 1px 6px rgb(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    background: rgb(255, 255, 255);
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 56px;
+    font-size: 16px;
+}
+
+.nav-item:hover {
+    background-color: #0091ce;
+}
+
+.text-center {
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+    .dangky {
+        padding-left: 40%;
+    }
+    .dangnhap {
+        padding-left: 38%;
+    }
+}
+
+.tv-search {
+    background: url(./Image/bg-home.png);
+    padding-top: 120px;
+    padding-bottom: 60px;
+    background-size: cover;
+    margin: 0;
+}
+
+.inline {
+    max-width: 400px;
+    margin: auto;
+}
+
+.input-icon i {
+
+    position: absolute;
+}
+
+.input-icon {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.icon {
+    padding: 1em;
+    min-width: 40px;
+}
+
+.input-filed {
+    width: 100%;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.bongoai {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(171, 176, 173, 0.5);
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.btn {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* .btn-search-job {
+    
+} */
+.btn-success {
+    background-color: blue;
+    border-color: #0091ce;
+}
+
+.keywork a {
+    padding-right: 20px;
+    word-wrap: break-word;
+    color: white;
+}
+
+.box-create-cv .box-item 
+{
+    padding: 0;
+    width: 66%;
+}
+.box-create-cv {
+    background: transparent linear-gradient(67deg, rgb(255, 255, 255), rgb(129, 120, 166)) 0 0 no-repeat
+    padding-box;
+    border-radius: 10px;
+    min-height: 262px;
+    padding-left: 24px;
+    position: relative;
+}
+.box-create-cv .box-image 
+{
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    object-fit: cover;
+    width: 50%;
+}
+
+.box-create-cv a {
+    font-weight: bold; 
+    border: 1px solid black; 
+    border-radius: 5px; 
+    margin-top: 5rem;
+    background-color: rgba(129, 120, 166, 0.5);
+}
+
+.box-create-cv a:hover {
+    background-color: rgba(129, 120, 166, 1);
+}
+.box-create-cv .box-image .img-responsive {
+    display: inline-block;
+    max-width: 80%;
+}
+
+.UT-slider {
+    border-radius: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+}
+.content {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+
+.test1 {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.1rem;
+}
+
+.item-job-mask {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 10rem;
+    background-color: #4982f34b;
+}
+
+
+.nhansu {
+    display: flex;
+    align-items: center;
+}
+
+.icon-daidien {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 15px;
+    background-color: #0091ce;
+}
+
+
+.slick-initialized .slick-slide {
+    margin: 0 10px;
+}
+
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #2cccff;
+    color: white;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+    left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #2cccff;
+    color: white;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+    right: 0;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 50rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1;
+    z-index: 5;
+    background-color: rgb(83, 11, 160);
+}
+
+.slick-arrow:hover {
+    background-color: #8e8fb5;
+}
+
+
+.slick-dots {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 40px);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    padding: 5px;
+
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(102, 1, 255);
+    transition: all 0.2s linear;
+}
+
+.slick-dots .slick-active button{
+    background-color: #2cccff;
+}
+
+.item-job-mask {
+    padding: 1rem;
+    margin-bottom: 10rem;
+}
+
+.company-congty {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid !important;
+    grid-template-columns: 32.7% 32.7% 32.7%;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+    .grid-container {
+        display: grid !important;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        display: grid !important;
+        grid-template-columns: 100%;
+        gap: 10px;
+    }
+    .search-all{
+        display: none;
+    }
+}
+
+
+.grid-item
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+picture img {
+    float: left;
+    width: 60px;
+    margin: 12px !important;
+    color: #333;
+    outline: none;
+}
+
+.content {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.test1 {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content .information {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.information-item i {
+    float: left;
+    margin-top: 2px;
+}
+
+.footer {
+    box-sizing: content-box;
+}
+.footer-content {
+    background: url(Image/bg-counter.jpg);
+    height: auto;
+    padding: 60px;
+    margin-top: 20px;
+}
